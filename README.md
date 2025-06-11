@@ -1,18 +1,21 @@
-## Getting Started
+## Desafio Conta Banco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório apresenta a minha solução para o desafio “Conta Banco”.
 
-## Folder Structure
+O objetivo foi aplicar e solidificar conceitos de Programação Orientada a Objeto (POO) na linguagem JAVA. A arquitetura do projeto é dividida para melhor organização e clareza.
 
-The workspace contains two folders by default, where:
+![image](https://github.com/user-attachments/assets/db8c6cf7-bfad-40ab-a0d3-9a5a20409044)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estrutura do explorador
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Projeto foi dividido em 2 Classes
 
-## Dependency Management
+* ContaTerminal:
+Se encontra com toda a regra de negocio, metodos bem definidos, construtor robusto e o uso de Getters and Setters para gerenciamento dos atributos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Main:
+Atua como o ponto de partida da aplicação, realizando o instanciamento e utilizando a classe #ContaTerminal
+
+## Link para o desafio
+https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe
